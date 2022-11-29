@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7533c191-e559-4349-918a-466c12d9d154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/US_21_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ui_Features/US_21.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/TestNgDeneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/US_22_StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/US_23_StepDeff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ui_Features/US_22.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ui_Features/US_23.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/MedunnaHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MedunnaHospital.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/US_21_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/US_21_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/uistepDef/UiStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ui_Features/US_21.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui_Features/US_21.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +70,75 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: US_21" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Kullanici (Staff) test sonuclarini gorebilmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui_Features/US_21.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui_Features/US_22.feature" />
       <option name="GLUE" value="stepDefinitions.uistepDef utilities" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Team08_MedunnaProjects" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US_21" />
+      <option name="NAME_FILTER" value="^Kullanici \(Staff\) test sonuclarini gorebilmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanici \(Staff\) test sonuclarini gorebilmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici (Staff) test sonuclarini gorebilmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Kullanici, Muayene ucreti, test urun fiyatlari gibi tüm faturalari goruntuleyebilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui_Features/US_23.feature" />
+      <option name="GLUE" value="stepDefinitions.uistepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Team08_MedunnaProjects" />
+      <option name="NAME_FILTER" value="^Kullanici\, Muayene ucreti\, test urun fiyatlari gibi tüm faturalari goruntuleyebilir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanici\, Muayene ucreti\, test urun fiyatlari gibi tüm faturalari goruntuleyebilir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici, Muayene ucreti, test urun fiyatlari gibi tüm faturalari goruntuleyebilir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Staff &quot;ID Date Result description Created date sonuc bilgilerini gorebilmeli ve guncelleyebilmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui_Features/US_22.feature" />
+      <option name="GLUE" value="stepDefinitions.uistepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Team08_MedunnaProjects" />
+      <option name="NAME_FILTER" value="^Staff \&quot;ID Date Result description Created date sonuc bilgilerini gorebilmeli ve guncelleyebilmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Staff \&quot;ID Date Result description Created date sonuc bilgilerini gorebilmeli ve guncelleyebilmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Staff &quot;ID Date Result description Created date sonuc bilgilerini gorebilmeli ve guncelleyebilmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Staff, hastanin SSN-ID numarasi ile arama yapabilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/ui_Features/US_22.feature" />
+      <option name="GLUE" value="stepDefinitions.uistepDef utilities" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Team08_MedunnaProjects" />
+      <option name="NAME_FILTER" value="^Staff\, hastanin SSN\-ID numarasi ile arama yapabilir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Staff\, hastanin SSN\-ID numarasi ile arama yapabilir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Staff, hastanin SSN-ID numarasi ile arama yapabilir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: US_21" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici, Muayene ucreti, test urun fiyatlari gibi tüm faturalari goruntuleyebilir" />
+        <item itemvalue="Cucumber Java.Scenario: Staff &quot;ID Date Result description Created date sonuc bilgilerini gorebilmeli ve guncelleyebilmelidir" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici (Staff) test sonuclarini gorebilmelidir" />
+        <item itemvalue="Cucumber Java.Scenario: Staff, hastanin SSN-ID numarasi ile arama yapabilir" />
       </list>
     </recent_temporary>
   </component>
